@@ -1,11 +1,12 @@
 #creating variables and assigning values
-adjective = input("Adjective: ")
-verb1 = input("Verb: ")
-verb2 = input("Verb: ")
-famous_person = input("Famous person: ")
+noun = input("Enter a Noun: ")
+adjective1 = input("Enter an Adjective: ")
+adjective2 = input("Enter an Adjective: ")
+famous_person = input("Enter a Famous person's name: ")
+print("\n")
 
-#new variable, holding formatted strings
-madlib = f"Computer programming is so {adjective}! It makes me so excited all the time because\
-I love to {verb1}. Stay hydrated and {verb2} like you are {famous_person}!"
+#new variable, holding formatted strings}. Stay hydrated and {verb2} like you are {famous_person}!"
+madlib = f"If opportunity doesn't knock, build a {noun}. It's going to be {adjective1}, but {adjective2} \
+does not mean impossible.  {famous_person} please give me a chance."
 
 print(madlib)
